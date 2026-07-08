@@ -1,0 +1,386 @@
+{
+  "version": "bnp-curated-1.0",
+  "note": "Public FAQ/help pages on mabanque.bnpparibas were fetched via WebFetch/WebSearch. mabanque returned HTTP 403 (bot protection) on direct page fetches, so chunk text was HAND-CURATED from the public help pages surfaced via search (all marked curated:true) and kept faithful to the public source. Source URLs are the real public pages. No prices/fees/numbers were invented - chunks describe processes, not tariffs.",
+  "languages": [
+    "fr",
+    "en"
+  ],
+  "chunks": [
+    {
+      "id": "faq_001",
+      "title": "Faire opposition à sa carte bancaire",
+      "url": "https://mabanque.bnpparibas/fr/gerer/cartes-moyens-paiement/options-services-bancaires/opposition-carte-bancaire",
+      "text": "En cas de perte, de vol ou d'utilisation frauduleuse, mettre votre carte en opposition est le meilleur moyen de vous protéger. Vous pouvez faire opposition en contactant votre agence, en appelant le Centre National d'Opposition, ou directement depuis votre espace en ligne et l'application Mes Comptes. L'opposition est enregistrée immédiatement, sans attendre votre confirmation écrite.",
+      "language": "fr",
+      "topic": "card_lock",
+      "relatedAction": "lock_card"
+    },
+    {
+      "id": "faq_002",
+      "title": "Blocking / opposition on your bank card",
+      "url": "https://mabanque.bnpparibas/fr/gerer/cartes-moyens-paiement/options-services-bancaires/opposition-carte-bancaire",
+      "text": "If your card is lost, stolen, or used fraudulently, placing it in opposition (blocking it) is the best way to protect yourself. You can block the card by contacting your branch, by calling the National Opposition Centre, or directly from your online space and the Mes Comptes mobile app. The block is registered immediately, without waiting for written confirmation.",
+      "language": "en",
+      "topic": "card_lock",
+      "relatedAction": "lock_card"
+    },
+    {
+      "id": "faq_003",
+      "title": "Différence entre blocage temporaire et opposition définitive",
+      "url": "https://mabanque.bnpparibas/fr/gerer/cartes-moyens-paiement/options-services-bancaires/opposition-carte-bancaire",
+      "text": "Si vous avez simplement égaré votre carte, vous pouvez la bloquer temporairement depuis l'application Mes Comptes, puis la réactiver si vous la retrouvez. En revanche, en cas de vol ou de fraude avérée, il faut faire une opposition définitive, qui annule la carte et déclenche l'édition d'une nouvelle. L'opposition définitive protège vos avoirs en cas d'usage frauduleux.",
+      "language": "fr",
+      "topic": "card_lock",
+      "relatedAction": "lock_card"
+    },
+    {
+      "id": "faq_004",
+      "title": "Temporarily lock vs. permanently block a card",
+      "url": "https://mabanque.bnpparibas/fr/gerer/cartes-moyens-paiement/options-services-bancaires/opposition-carte-bancaire",
+      "text": "If you have merely misplaced your card, you can lock it temporarily from the Mes Comptes app and reactivate it if you find it again. If the card is stolen or used fraudulently, you should place a permanent opposition, which cancels the card and triggers the issue of a replacement. A permanent block protects your funds against fraudulent use.",
+      "language": "en",
+      "topic": "card_lock",
+      "relatedAction": "lock_card"
+    },
+    {
+      "id": "faq_005",
+      "title": "Carte refusée ou avalée au distributeur",
+      "url": "https://mabanque.bnpparibas/fr/gerer/cartes-moyens-paiement/options-services-bancaires/carte-refusee-ou-avalee-au-distributeur",
+      "text": "Une carte peut être refusée ou avalée à un distributeur pour plusieurs raisons, par exemple un dépassement de plafond ou une carte arrivée à expiration. Si votre carte est avalée à un distributeur BNP Paribas, elle est conservée par mesure de sécurité et détruite ; il convient de vous rapprocher de votre agence. En cas de doute sur l'origine du refus, contactez votre conseiller.",
+      "language": "fr",
+      "topic": "card_lock"
+    },
+    {
+      "id": "faq_006",
+      "title": "Gérer et personnaliser les plafonds de sa carte",
+      "url": "https://mabanque.bnpparibas/fr/gerer/cartes-moyens-paiement/options-services-bancaires",
+      "text": "Vous pouvez suivre et personnaliser les plafonds de paiement et de retrait de votre carte en temps réel depuis l'application Mes Comptes. Les plafonds sont ajustables selon vos besoins, dans les limites prévues par votre contrat de carte. Une modification de plafond peut nécessiter une authentification forte via votre Clé Digitale.",
+      "language": "fr",
+      "topic": "card_limits"
+    },
+    {
+      "id": "faq_007",
+      "title": "Manage and personalise your card limits",
+      "url": "https://mabanque.bnpparibas/fr/gerer/cartes-moyens-paiement/options-services-bancaires",
+      "text": "You can track and personalise your card's payment and withdrawal limits in real time from the Mes Comptes app. Limits are adjustable to suit your needs, within the ranges set by your card contract. Changing a limit may require strong authentication with your Clé Digitale (digital key).",
+      "language": "en",
+      "topic": "card_limits"
+    },
+    {
+      "id": "faq_008",
+      "title": "Où consulter les plafonds de sa carte",
+      "url": "https://mabanque.bnpparibas/fr/notre-offre/tarifs-et-conditions-bnp-paribas/documents-cartes-bancaires",
+      "text": "Chaque carte est associée à un plafond de paiement et à un plafond de retrait, exprimés sur une période glissante. Le détail des plafonds applicables à votre carte figure dans votre contrat de carte et dans les conditions tarifaires, et est consultable dans votre espace en ligne. Vous pouvez demander un ajustement temporaire ou permanent selon votre offre.",
+      "language": "fr",
+      "topic": "card_limits"
+    },
+    {
+      "id": "faq_009",
+      "title": "Effectuer un virement et gérer ses bénéficiaires",
+      "url": "https://mabanque.bnpparibas/fr/gerer/cartes-moyens-paiement/moyens-paiement/virements-gestion-beneficiaires",
+      "text": "Vous pouvez réaliser des virements et gérer la liste de vos bénéficiaires depuis votre espace en ligne et l'application Mes Comptes. L'ajout d'un nouveau bénéficiaire est une opération sensible qui requiert une validation par authentification forte. Une fois le bénéficiaire enregistré, vous pouvez lui adresser des virements ponctuels ou permanents.",
+      "language": "fr",
+      "topic": "transfers"
+    },
+    {
+      "id": "faq_010",
+      "title": "Make a transfer and manage your beneficiaries",
+      "url": "https://mabanque.bnpparibas/fr/gerer/cartes-moyens-paiement/moyens-paiement/virements-gestion-beneficiaires",
+      "text": "You can make transfers and manage your list of beneficiaries from your online space and the Mes Comptes app. Adding a new beneficiary is a sensitive operation that requires validation by strong authentication. Once a beneficiary is registered, you can send them one-off or standing transfers.",
+      "language": "en",
+      "topic": "transfers"
+    },
+    {
+      "id": "faq_011",
+      "title": "Ajouter un bénéficiaire sans délai avec la Clé Digitale",
+      "url": "https://mabanque.bnpparibas/fr/gerer/services-lies-compte/options-et-services/cle-digitale",
+      "text": "En activant votre Clé Digitale, vous pouvez ajouter un bénéficiaire de virement immédiatement, sans devoir attendre le délai habituel avant d'effectuer votre virement. La Clé Digitale sert d'authentification forte pour valider l'ajout. Sans authentification forte, un délai d'activation peut s'appliquer avant qu'un virement vers un nouveau bénéficiaire soit possible.",
+      "language": "fr",
+      "topic": "transfers"
+    },
+    {
+      "id": "faq_012",
+      "title": "Add a beneficiary instantly with the Clé Digitale",
+      "url": "https://mabanque.bnpparibas/fr/gerer/services-lies-compte/options-et-services/cle-digitale",
+      "text": "By activating your Clé Digitale (digital key), you can add a transfer beneficiary immediately, without having to wait the usual delay before making your transfer. The digital key acts as the strong authentication that validates the addition. Without strong authentication, an activation delay may apply before a transfer to a new beneficiary is possible.",
+      "language": "en",
+      "topic": "transfers"
+    },
+    {
+      "id": "faq_013",
+      "title": "Consulter le solde et les opérations de son compte",
+      "url": "https://mabanque.bnpparibas/fr/ma-banque-et-moi/assistant-virtuel-telmi",
+      "text": "Vous pouvez consulter le solde de votre compte et le détail de vos opérations à tout moment depuis votre espace en ligne et l'application Mes Comptes. L'assistant virtuel Telmi permet également, 24h/24 et 7j/7, de suivre vos opérations bancaires et de consulter votre solde. La consultation du solde est une simple lecture et ne nécessite pas de confirmation d'opération.",
+      "language": "fr",
+      "topic": "balance_statements"
+    },
+    {
+      "id": "faq_014",
+      "title": "Check your account balance and transactions",
+      "url": "https://mabanque.bnpparibas/fr/ma-banque-et-moi/assistant-virtuel-telmi",
+      "text": "You can check your account balance and the detail of your transactions at any time from your online space and the Mes Comptes app. The Telmi virtual assistant also lets you track banking operations and check your balance, 24 hours a day, 7 days a week. Checking the balance is a read-only action and does not require operation confirmation.",
+      "language": "en",
+      "topic": "balance_statements"
+    },
+    {
+      "id": "faq_015",
+      "title": "Accéder à ses relevés de compte",
+      "url": "https://mabanque.bnpparibas/fr/ma-banque-et-moi/nos-applications/mobile",
+      "text": "Vos relevés de compte sont disponibles dans votre espace en ligne et dans l'application Mes Comptes, où vous pouvez les consulter et les télécharger. Pour toute assistance spécifique sur un relevé, vous pouvez contacter votre conseiller ou utiliser les outils numériques de votre espace. Les relevés récapitulent les opérations passées sur une période donnée.",
+      "language": "fr",
+      "topic": "balance_statements"
+    },
+    {
+      "id": "faq_016",
+      "title": "Access your account statements",
+      "url": "https://mabanque.bnpparibas/fr/ma-banque-et-moi/nos-applications/mobile",
+      "text": "Your account statements are available in your online space and in the Mes Comptes app, where you can view and download them. For specific help with a statement, you can contact your advisor or use the digital tools in your space. Statements summarise the transactions on your account over a given period.",
+      "language": "en",
+      "topic": "balance_statements"
+    },
+    {
+      "id": "faq_017",
+      "title": "Horaires du service client téléphonique",
+      "url": "https://mabanque.bnpparibas/fr/nous-contacter/accueil-telephonique",
+      "text": "Un conseiller du service client traite votre demande du lundi au vendredi de 8h à 20h, et le samedi de 8h à 18h (hors jours fériés). En dehors de ces horaires, l'assistant virtuel Telmi reste disponible 24h/24 et 7j/7 pour les questions sur les offres et services. Vous pouvez aussi demander à être rappelé si tous les conseillers sont occupés.",
+      "language": "fr",
+      "topic": "contact_hours"
+    },
+    {
+      "id": "faq_018",
+      "title": "Telephone customer service opening hours",
+      "url": "https://mabanque.bnpparibas/fr/nous-contacter/accueil-telephonique",
+      "text": "A customer service advisor handles your request from Monday to Friday, 8am to 8pm, and Saturday, 8am to 6pm (excluding public holidays). Outside these hours, the Telmi virtual assistant remains available 24/7 for questions about offers and services. You can also ask to be called back if all advisors are busy.",
+      "language": "en",
+      "topic": "contact_hours"
+    },
+    {
+      "id": "faq_019",
+      "title": "Nous contacter",
+      "url": "https://mabanque.bnpparibas/fr/nous-contacter/nous-contacter",
+      "text": "Vous pouvez contacter la banque par téléphone, par messagerie sécurisée depuis votre espace en ligne, ou par chat. Votre conseiller de proximité est joignable par e-mail, par téléphone ou via votre messagerie sécurisée. Si le conseiller de votre agence n'est pas disponible, un conseiller d'une autre agence, ayant accès à votre dossier, prend le relais.",
+      "language": "fr",
+      "topic": "contact_hours"
+    },
+    {
+      "id": "faq_020",
+      "title": "Contact us",
+      "url": "https://mabanque.bnpparibas/fr/nous-contacter/nous-contacter",
+      "text": "You can contact the bank by phone, by secure messaging from your online space, or by chat. Your local advisor can be reached by email, by phone, or through your secure messaging. If the advisor at your branch is unavailable, an advisor from another branch who has access to your file takes over.",
+      "language": "en",
+      "topic": "contact_hours"
+    },
+    {
+      "id": "faq_021",
+      "title": "Prendre rendez-vous avec un conseiller",
+      "url": "https://mabanque.bnpparibas/fr/nous-contacter/nous-contacter",
+      "text": "Vous pouvez prendre rendez-vous directement dans l'agenda en ligne de votre conseiller de proximité ou du premier conseiller disponible. La prise de rendez-vous se fait depuis l'application Mes Comptes ou sur le site. L'assistant virtuel Telmi permet également de prendre rendez-vous à tout moment.",
+      "language": "fr",
+      "topic": "appointments"
+    },
+    {
+      "id": "faq_022",
+      "title": "Book an appointment with an advisor",
+      "url": "https://mabanque.bnpparibas/fr/nous-contacter/nous-contacter",
+      "text": "You can book an appointment directly in the online calendar of your local advisor or of the first available advisor. Appointments can be booked from the Mes Comptes app or on the website. The Telmi virtual assistant can also book an appointment for you at any time.",
+      "language": "en",
+      "topic": "appointments"
+    },
+    {
+      "id": "faq_023",
+      "title": "Qu'est-ce que la Clé Digitale",
+      "url": "https://mabanque.bnpparibas/fr/gerer/services-lies-compte/options-et-services/cle-digitale",
+      "text": "La Clé Digitale est un service gratuit qui renforce la sécurité de vos opérations en ligne en fournissant une authentification forte du client. Elle répond aux exigences de la Directive européenne sur les Services de Paiement (DSP2), qui impose l'authentification forte pour de nombreuses opérations sensibles. Une fois activée sur votre mobile, la Clé Digitale sert à valider vos connexions, paiements et opérations sensibles.",
+      "language": "fr",
+      "topic": "digital_key"
+    },
+    {
+      "id": "faq_024",
+      "title": "What is the Clé Digitale (digital key)",
+      "url": "https://mabanque.bnpparibas/fr/gerer/services-lies-compte/options-et-services/cle-digitale",
+      "text": "The Clé Digitale is a free service that strengthens the security of your online operations by providing strong customer authentication. It meets the requirements of the European Payment Services Directive (PSD2), which mandates strong authentication for many sensitive operations. Once activated on your mobile, the digital key is used to validate your logins, payments, and sensitive operations.",
+      "language": "en",
+      "topic": "digital_key"
+    },
+    {
+      "id": "faq_025",
+      "title": "Activer sa Clé Digitale",
+      "url": "https://mabanque.bnpparibas/fr/gerer/services-lies-compte/options-et-services/cle-digitale",
+      "text": "Pour activer la Clé Digitale, connectez-vous à l'application Mes Comptes, puis rendez-vous dans « Vous », « Paramètres » et « Clé Digitale ». Choisissez le nom à donner à votre téléphone mobile, puis validez l'activation à réception d'un SMS contenant un lien. Une fois activée, la Clé Digitale remplace certains codes reçus par SMS pour valider vos opérations.",
+      "language": "fr",
+      "topic": "digital_key"
+    },
+    {
+      "id": "faq_026",
+      "title": "Activate your Clé Digitale",
+      "url": "https://mabanque.bnpparibas/fr/gerer/services-lies-compte/options-et-services/cle-digitale",
+      "text": "To activate the Clé Digitale, log in to the Mes Comptes app, then go to 'You', 'Settings', and 'Clé Digitale'. Choose a name for your mobile phone, then confirm activation when you receive an SMS containing a link. Once activated, the digital key replaces some SMS codes for validating your operations.",
+      "language": "en",
+      "topic": "digital_key"
+    },
+    {
+      "id": "faq_027",
+      "title": "Sécuriser ses paiements en ligne",
+      "url": "https://mabanque.bnpparibas/fr/gerer/services-lies-compte/options-et-services/securiser-ses-paiements-en-ligne",
+      "text": "Pour sécuriser vos paiements en ligne, la banque met en place l'authentification forte conformément à la DSP2, via la Clé Digitale ou le SMS renforcé. Lors d'un paiement sur internet, il peut vous être demandé de confirmer l'opération dans votre application. Ce dispositif limite le risque de paiement frauduleux à distance.",
+      "language": "fr",
+      "topic": "digital_key"
+    },
+    {
+      "id": "faq_028",
+      "title": "Comprendre les conditions tarifaires",
+      "url": "https://mabanque.bnpparibas/fr/notre-offre/tarifs-et-conditions-bnp-paribas/conditions-tarifaires",
+      "text": "Les conditions et tarifs applicables aux particuliers sont réunis dans une brochure tarifaire consultable et téléchargeable sur le site. Ce document détaille les frais liés aux comptes, cartes, moyens de paiement et services. Consultez toujours la brochure tarifaire en vigueur pour connaître les frais applicables à votre offre.",
+      "language": "fr",
+      "topic": "fees"
+    },
+    {
+      "id": "faq_029",
+      "title": "Understand the pricing conditions",
+      "url": "https://mabanque.bnpparibas/fr/notre-offre/tarifs-et-conditions-bnp-paribas/conditions-tarifaires",
+      "text": "The conditions and fees that apply to individuals are gathered in a pricing brochure that can be viewed and downloaded on the website. This document sets out the fees relating to accounts, cards, payment methods, and services. Always consult the current pricing brochure to know the fees that apply to your offer.",
+      "language": "en",
+      "topic": "fees"
+    },
+    {
+      "id": "faq_030",
+      "title": "Où trouver les documents et frais liés aux cartes",
+      "url": "https://mabanque.bnpparibas/fr/notre-offre/tarifs-et-conditions-bnp-paribas/documents-cartes-bancaires",
+      "text": "L'ensemble des documents relatifs aux cartes bancaires, dont les conditions et les frais, sont disponibles dans la rubrique documents cartes du site. Vous y trouverez le détail des services associés à chaque carte et les tarifs correspondants. Pour toute question sur un frais précis, adressez-vous à votre conseiller.",
+      "language": "fr",
+      "topic": "fees"
+    },
+    {
+      "id": "faq_031",
+      "title": "Reconnaître une tentative de phishing (hameçonnage)",
+      "url": "https://mabanque.bnpparibas/fr/engagement-chartes-et-conventions/site-securise/identifier-attaques-bancaires",
+      "text": "Le phishing, ou hameçonnage, consiste à tenter de vous soutirer vos mots de passe et informations confidentielles via un e-mail ou un SMS frauduleux imitant votre banque. La banque ne vous demandera jamais vos identifiants complets ou vos codes de sécurité par e-mail ou par téléphone. Pour vérifier qu'un formulaire émane bien de la banque, assurez-vous que l'adresse dans la barre de navigation commence par https.",
+      "language": "fr",
+      "topic": "fraud"
+    },
+    {
+      "id": "faq_032",
+      "title": "Recognise a phishing attempt",
+      "url": "https://mabanque.bnpparibas/fr/engagement-chartes-et-conventions/site-securise/identifier-attaques-bancaires",
+      "text": "Phishing consists of attempts to extract your passwords and confidential information through a fraudulent email or SMS imitating your bank. The bank will never ask for your full credentials or security codes by email or phone. To check that a form genuinely comes from the bank, make sure the address in the navigation bar starts with https.",
+      "language": "en",
+      "topic": "fraud"
+    },
+    {
+      "id": "faq_033",
+      "title": "Que faire en cas de fraude ou d'utilisation frauduleuse de la carte",
+      "url": "https://mabanque.bnpparibas/fr/gerer/services-lies-compte/faire-opposition/contestation-operations",
+      "text": "En cas d'utilisation frauduleuse de votre carte, mettez immédiatement la carte en opposition auprès de votre agence, du Centre National d'Opposition, ou depuis votre espace en ligne. Signalez ensuite le cas à votre conseiller, qui pourra ouvrir un dossier de contestation des opérations frauduleuses. Ce dossier permet le remboursement des opérations contestées dans les meilleurs délais.",
+      "language": "fr",
+      "topic": "fraud",
+      "relatedAction": "lock_card"
+    },
+    {
+      "id": "faq_034",
+      "title": "What to do in case of fraud or fraudulent card use",
+      "url": "https://mabanque.bnpparibas/fr/gerer/services-lies-compte/faire-opposition/contestation-operations",
+      "text": "If your card is used fraudulently, place it in opposition (block it) immediately via your branch, the National Opposition Centre, or your online space. Then report the case to your advisor, who can open a dispute file for the fraudulent transactions. This file allows the disputed transactions to be refunded as quickly as possible.",
+      "language": "en",
+      "topic": "fraud",
+      "relatedAction": "lock_card"
+    },
+    {
+      "id": "faq_035",
+      "title": "Signaler un e-mail ou SMS suspect",
+      "url": "https://mabanque.bnpparibas/fr/engagement-chartes-et-conventions/site-securise/alertes-securite",
+      "text": "Si vous avez communiqué vos données bancaires à la suite d'un e-mail ou d'un SMS suspect, signalez-le sans attendre à votre conseiller ou au Centre de Relations Clients. Pensez également à nettoyer l'appareil concerné avec un antivirus. Une réaction rapide limite les conséquences d'une compromission de vos données.",
+      "language": "fr",
+      "topic": "fraud"
+    },
+    {
+      "id": "faq_036",
+      "title": "Contester une opération de carte",
+      "url": "https://mabanque.bnpparibas/fr/gerer/services-lies-compte/faire-opposition/contestation-operations",
+      "text": "Vous pouvez contester en ligne une opération de carte que vous ne reconnaissez pas depuis votre espace sécurisé. La contestation déclenche l'analyse de l'opération et, le cas échéant, l'ouverture d'un dossier par votre conseiller. Si votre carte a pu être compromise, une opposition peut être nécessaire en parallèle de la contestation.",
+      "language": "fr",
+      "topic": "fraud"
+    },
+    {
+      "id": "faq_037",
+      "title": "Faire une réclamation",
+      "url": "https://mabanque.bnpparibas/fr/nous-contacter/nous-contacter",
+      "text": "Pour une réclamation, vous pouvez d'abord contacter votre conseiller habituel ou le directeur de votre agence, lors d'un entretien, par téléphone, par courrier, sur le site ou via l'application Mes Comptes. Si la réponse ne vous satisfait pas, vous pouvez écrire au Responsable Réclamations Clients dont dépend votre agence, dont les coordonnées sont disponibles en agence et en ligne. Ce parcours structuré vise à traiter votre demande à chaque niveau.",
+      "language": "fr",
+      "topic": "complaints"
+    },
+    {
+      "id": "faq_038",
+      "title": "File a complaint",
+      "url": "https://mabanque.bnpparibas/fr/nous-contacter/nous-contacter",
+      "text": "For a complaint, you can first contact your usual advisor or your branch director, in a meeting, by phone, by mail, on the website, or through the Mes Comptes app. If the answer does not satisfy you, you can write to the Customer Complaints Officer responsible for your branch, whose details are available in-branch and online. This structured path aims to handle your request at each level.",
+      "language": "en",
+      "topic": "complaints"
+    },
+    {
+      "id": "faq_039",
+      "title": "Délais de traitement d'une réclamation",
+      "url": "https://mabanque.bnpparibas/fr/nous-contacter/nous-contacter",
+      "text": "Dans les 10 jours ouvrables suivant la réception de votre réclamation, vous recevez une confirmation de sa prise en charge. Si des recherches sont nécessaires, une réponse définitive vous est communiquée dans un délai maximum de 2 mois. Ces délais encadrent le traitement de votre réclamation avant tout recours ultérieur.",
+      "language": "fr",
+      "topic": "complaints"
+    },
+    {
+      "id": "faq_040",
+      "title": "Complaint handling timeframes",
+      "url": "https://mabanque.bnpparibas/fr/nous-contacter/nous-contacter",
+      "text": "Within 10 business days of receiving your complaint, you receive confirmation that it is being handled. If investigation is needed, a final reply is provided within a maximum of 2 months. These timeframes frame the handling of your complaint before any further recourse.",
+      "language": "en",
+      "topic": "complaints"
+    },
+    {
+      "id": "faq_041",
+      "title": "Saisir le Médiateur bancaire",
+      "url": "https://lemediateur.fbf.fr/",
+      "text": "Si aucune solution amiable n'a été trouvée, vous pouvez saisir le Médiateur auprès de la Fédération Bancaire Française (FBF), uniquement par écrit, en français ou en anglais. Le Médiateur ne peut être saisi que par un client particulier n'agissant pas pour des besoins professionnels, pour les litiges relatifs aux opérations de banque et produits d'épargne. La saisine du Médiateur est le dernier recours amiable avant toute démarche judiciaire.",
+      "language": "fr",
+      "topic": "complaints"
+    },
+    {
+      "id": "faq_042",
+      "title": "Refer your case to the banking Ombudsman (Médiateur)",
+      "url": "https://lemediateur.fbf.fr/",
+      "text": "If no amicable solution has been reached, you may refer your case to the Ombudsman (Médiateur) at the French Banking Federation (FBF), in writing only, in French or English. The Ombudsman can only be contacted by an individual customer not acting for professional purposes, for disputes relating to banking operations and savings products. Referral to the Ombudsman is the last amicable step before any court proceedings.",
+      "language": "en",
+      "topic": "complaints"
+    },
+    {
+      "id": "faq_043",
+      "title": "Faire opposition à un prélèvement",
+      "url": "https://mabanque.bnpparibas/fr/gerer/services-lies-compte/options-et-services/opposition-prelevement",
+      "text": "Vous pouvez vous opposer à un prélèvement depuis votre espace en ligne ou l'application Mes Comptes, avant que celui-ci ne soit débité. L'opposition à un prélèvement est distincte de l'opposition sur une carte bancaire. En cas de prélèvement non autorisé, rapprochez-vous de votre conseiller pour la marche à suivre.",
+      "language": "fr",
+      "topic": "card_lock"
+    },
+    {
+      "id": "faq_044",
+      "title": "SMS renforcé pour sécuriser ses paiements",
+      "url": "https://mabanque.bnpparibas/fr/gerer/services-lies-compte/options-et-services/sms-renforce",
+      "text": "Le SMS renforcé est un dispositif d'authentification qui vous demande de confirmer certaines opérations en ligne à l'aide d'un code reçu par SMS et d'une information personnelle. Il constitue une alternative à la Clé Digitale pour répondre aux exigences d'authentification forte de la DSP2. Ce dispositif renforce la sécurité de vos paiements en ligne.",
+      "language": "fr",
+      "topic": "digital_key"
+    },
+    {
+      "id": "faq_045",
+      "title": "Réactiver une carte bloquée temporairement",
+      "url": "https://mabanque.bnpparibas/fr/gerer/cartes-moyens-paiement/options-services-bancaires/opposition-carte-bancaire",
+      "text": "Si vous avez bloqué temporairement votre carte depuis l'application Mes Comptes et que vous la retrouvez, vous pouvez la réactiver à tout moment depuis la même application : la carte redevient utilisable immédiatement. Attention : une opposition définitive, elle, ne peut pas être annulée - la carte est détruite et une nouvelle carte est émise.",
+      "language": "fr",
+      "topic": "card_lock",
+      "relatedAction": "unlock_card"
+    },
+    {
+      "id": "faq_046",
+      "title": "Reactivate (unlock) a temporarily locked card",
+      "url": "https://mabanque.bnpparibas/fr/gerer/cartes-moyens-paiement/options-services-bancaires/opposition-carte-bancaire",
+      "text": "If you locked your card temporarily from the Mes Comptes app and you find it again, you can reactivate it at any time from the same app: the card becomes usable again immediately. Note that a permanent opposition cannot be undone - the card is cancelled and a replacement is issued.",
+      "language": "en",
+      "topic": "card_lock",
+      "relatedAction": "unlock_card"
+    }
+  ]
+}
