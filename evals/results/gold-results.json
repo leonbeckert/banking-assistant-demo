@@ -1,0 +1,37 @@
+{
+  "generatedAt": "2026-07-06T12:40:29.232Z",
+  "itemCount": 64,
+  "moderation": {
+    "ok": 64,
+    "total": 64
+  },
+  "intent": {
+    "ok": 59,
+    "total": 59
+  },
+  "route": {
+    "ok": 58,
+    "total": 59
+  },
+  "read": {
+    "ok": 7,
+    "total": 7
+  },
+  "misses": [
+    {
+      "id": "gold_des_02",
+      "kind": "route",
+      "expected": "lock_card",
+      "got": "fraud_escalation",
+      "input": "This is the worst bank ever. Block my card."
+    }
+  ],
+  "screening": {
+    "model": "mistral-moderation-2603",
+    "tokens": 4840,
+    "costEurPerTurn": 0.000006957500000000001
+  },
+  "ratified": true,
+  "ratifiedBy": "Leon Beckert",
+  "labeledAt": "2026-07-06T08:51:00Z"
+}

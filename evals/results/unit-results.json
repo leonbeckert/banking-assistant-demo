@@ -1,0 +1,86 @@
+{
+  "generatedAt": "2026-07-06T11:22:29.012Z",
+  "total": 13,
+  "passed": 13,
+  "failed": 0,
+  "checks": [
+    {
+      "id": "unit_s01",
+      "group": "signed_out",
+      "name": "balance/transactions read requires a session",
+      "pass": true
+    },
+    {
+      "id": "unit_s02",
+      "group": "signed_out",
+      "name": "card lock/unlock requires a session",
+      "pass": true
+    },
+    {
+      "id": "unit_s03",
+      "group": "signed_out",
+      "name": "payment requires a session",
+      "pass": true
+    },
+    {
+      "id": "unit_s04",
+      "group": "signed_out",
+      "name": "public FAQ answers without a session",
+      "pass": true
+    },
+    {
+      "id": "unit_s05",
+      "group": "signed_out",
+      "name": "refusal serves without a session",
+      "pass": true
+    },
+    {
+      "id": "unit_s06",
+      "group": "signed_out",
+      "name": "human/fraud escalation serves without a session",
+      "pass": true
+    },
+    {
+      "id": "unit_s07",
+      "group": "signed_out",
+      "name": "complaint routing serves without a session",
+      "pass": true
+    },
+    {
+      "id": "unit_h01",
+      "group": "out_of_hours",
+      "name": "the out-of-hours clock is out of hours (Sun 20:00)",
+      "pass": true
+    },
+    {
+      "id": "unit_h02",
+      "group": "out_of_hours",
+      "name": "the in-hours clock is in hours (Mon 10:00)",
+      "pass": true
+    },
+    {
+      "id": "unit_h03",
+      "group": "out_of_hours",
+      "name": "out of hours still yields a reply-by promise (nextOpening)",
+      "pass": true
+    },
+    {
+      "id": "unit_h04",
+      "group": "out_of_hours",
+      "name": "Sunday is configured closed",
+      "pass": true
+    },
+    {
+      "id": "unit_h05",
+      "group": "out_of_hours",
+      "name": "a fraud signal routes to escalation regardless of any clock input",
+      "pass": true
+    },
+    {
+      "id": "unit_h06",
+      "group": "out_of_hours",
+      "name": "routeFor takes no time input: routes cannot depend on hours",
+      "pass": true
+    }
+  ]
+}
