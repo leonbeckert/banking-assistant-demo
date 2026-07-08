@@ -1,0 +1,22 @@
+# Keep the build context small and secrets out of the image.
+node_modules
+.next
+.git
+.gitignore
+npm-debug.log*
+# NEVER copy the local key into the image — it is injected at deploy time.
+.env
+.env.*
+.env*.local
+.DS_Store
+*.tsbuildinfo
+# Dev/test/tooling not needed at runtime.
+.vscode
+.idea
+README.md
+# Kamal deploy config + secrets — must NEVER land in an image layer via `COPY . .`.
+.kamal
+config/deploy.yml
+config/ssh_kamal.conf
+# NOTE: data/ and evals/results/ are intentionally NOT ignored — the app reads
+# them at runtime and the Dockerfile copies them into the image.

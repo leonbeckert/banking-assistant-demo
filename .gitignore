@@ -1,0 +1,43 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# next.js
+/.next/
+/out/
+next-env.d.ts
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# env — NEVER commit the key
+.env
+.env.local
+.env*.local
+
+# typescript
+*.tsbuildinfo
+
+# Studio agent manifest — account/run-specific, not committed
+/data/studio-agent.json
+
+# Brand assets (trademarked marks for live demos) — git-ignored like .env.local
+/public/brand/
+
+# Kamal deploy config — holds internal host IP + secrets; NEVER publish (repo goes public)
+/config/deploy.yml
+/config/ssh_kamal.conf
+/.kamal/
+
+# Branded favicon (trademarked) - generated from /public/brand, kept out of the public repo
+/public/favicon.ico

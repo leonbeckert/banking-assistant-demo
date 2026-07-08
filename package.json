@@ -1,0 +1,38 @@
+{
+  "name": "banking-assistant-demo",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Retail bank assistant demo \u2014 grounded answering vs. deterministic acting, split along the compliance boundary. Runs on Mistral Studio.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "setup": "tsx scripts/ingest.ts",
+    "demo:check": "tsx evals/demo-check.ts",
+    "eval": "tsx evals/gold.ts && tsx evals/run.ts",
+    "eval:agreement": "tsx evals/agreement.ts",
+    "studio:register": "tsx scripts/studio-register.ts",
+    "studio:status": "tsx scripts/studio-status.ts",
+    "studio:obs": "tsx scripts/studio-observability.ts",
+    "eval:redteam": "tsx evals/redteam.ts",
+    "gold": "tsx evals/gold.ts",
+    "unit": "tsx evals/unit.ts"
+  },
+  "dependencies": {
+    "@mistralai/mistralai": "^1.7.0",
+    "next": "14.2.15",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.10",
+    "tsx": "^4.16.0",
+    "typescript": "^5.5.4"
+  }
+}
